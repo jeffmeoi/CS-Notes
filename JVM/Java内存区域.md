@@ -1,28 +1,29 @@
 <!-- TOC -->
 
 - [Java内存区域](#java内存区域)
-    - [Java运行时数据区](#java运行时数据区)
-        - [程序计数器(Program Counter Register)](#程序计数器program-counter-register)
-        - [虚拟机栈(VM Stack)](#虚拟机栈vm-stack)
-            - [栈帧的结构](#栈帧的结构)
-                - [局部变量表](#局部变量表)
-        - [本地方法栈(Native Method Stack)](#本地方法栈native-method-stack)
-        - [Java堆（Heap, GC堆）](#java堆heap-gc堆)
-        - [方法区(Non-Heap, 非堆)](#方法区non-heap-非堆)
-            - [运行时常量池(Runtime Constant Pool)](#运行时常量池runtime-constant-pool)
-        - [直接内存(Direct Memory)](#直接内存direct-memory)
-    - [Java对象的创建](#java对象的创建)
-        - [内存分配方式](#内存分配方式)
-            - [解决方法](#解决方法)
-        - [内存分配的并发问题](#内存分配的并发问题)
-            - [解决方法](#解决方法-1)
-        - [对象的内存布局](#对象的内存布局)
-            - [对象头](#对象头)
-            - [实例数据](#实例数据)
-        - [对齐填充](#对齐填充)
-    - [对象的访问定位](#对象的访问定位)
-        - [句柄访问](#句柄访问)
-        - [直接指针访问](#直接指针访问)
+  - [Java运行时数据区](#java运行时数据区)
+    - [程序计数器(Program Counter Register)](#程序计数器program-counter-register)
+    - [虚拟机栈(VM Stack)](#虚拟机栈vm-stack)
+      - [栈帧的结构](#栈帧的结构)
+        - [局部变量表](#局部变量表)
+    - [本地方法栈(Native Method Stack)](#本地方法栈native-method-stack)
+    - [Java堆（Heap, GC堆）](#java堆heap-gc堆)
+    - [方法区(Non-Heap, 非堆)](#方法区non-heap-非堆)
+      - [运行时常量池(Runtime Constant Pool)](#运行时常量池runtime-constant-pool)
+    - [直接内存(Direct Memory)](#直接内存direct-memory)
+  - [Java对象的创建](#java对象的创建)
+    - [内存分配方式](#内存分配方式)
+      - [解决方法](#解决方法)
+    - [内存分配的并发问题](#内存分配的并发问题)
+      - [解决方法](#解决方法-1)
+    - [对象的内存布局](#对象的内存布局)
+      - [对象头](#对象头)
+      - [实例数据](#实例数据)
+    - [对齐填充](#对齐填充)
+  - [对象的访问定位](#对象的访问定位)
+    - [句柄访问](#句柄访问)
+    - [直接指针访问](#直接指针访问)
+  - [Reference](#reference)
 
 <!-- /TOC -->
 
@@ -177,5 +178,9 @@ Java堆会划出一块内存来作为句柄池，reference中存储的就是对�
 
 
 
+
+## Reference
+
+周志明.深入理解Java虚拟机：JVM高级特性与最佳实践（第2版）机械工业出版社
 
 

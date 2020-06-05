@@ -6,6 +6,7 @@
   - [原子性(Atomicity)](#原子性atomicity)
   - [可见性(Visibility)](#可见性visibility)
   - [有序性(Ordering)](#有序性ordering)
+  - [Reference](#reference)
 
 <!-- /TOC -->
 # Java内存模型
@@ -75,3 +76,9 @@ Java内存模型的**主要目标**是**定义程序中各个变量的访问规�
 - Java语言提供了**volatile和synchronized**两个关键字来保证**线程之间**操作的有序性；
   - volatile关键字本身就包含了**禁止指令重排序**的语义；
   - synchronized则是由“**一个变量在同一个时刻只允许一条线程对其进行lock操作**”这条规则获得的，这条规则决定了持有同一个锁的两个同步块只能串行地进入；
+
+
+
+## Reference
+
+周志明.深入理解Java虚拟机：JVM高级特性与最佳实践（第2版）机械工业出版社
