@@ -1,3 +1,13 @@
+<!-- TOC -->
+
+- [Java内存模型](#java内存模型)
+  - [内存间交互操作](#内存间交互操作)
+  - [原子性、可见性和有序性](#原子性可见性和有序性)
+  - [原子性(Atomicity)](#原子性atomicity)
+  - [可见性(Visibility)](#可见性visibility)
+  - [有序性(Ordering)](#有序性ordering)
+
+<!-- /TOC -->
 # Java内存模型
 
 Java虚拟机规范中试图定义一种**Java内存模型（Java Memory Model, JMM）**来屏蔽掉各种硬件和操作系统的内存访问差异，以实现让Java程序在各种平台下都能达到一致的内存访问效果。

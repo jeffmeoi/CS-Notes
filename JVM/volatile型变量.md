@@ -1,3 +1,9 @@
+<!-- TOC -->
+
+- [volatile型变量](#volatile型变量)
+  - [保证可见性](#保证可见性)
+
+<!-- /TOC -->
 # volatile型变量
 
 - 关键字volatile是Java虚拟机提供的最轻量级的同步机制；
