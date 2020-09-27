@@ -132,7 +132,7 @@ JDK 1.8，方法区被取消，移到了直接内存的metaSpace。
 
 ### 对象的内存布局
 
-在HotSpot虚拟机中，对象在内存中存储的布局可以分为3块区域：对象头(Header)、实例数据(Instance Data)和对其填充(Padding)。
+在HotSpot虚拟机中，对象在内存中存储的布局可以分为3块区域：对象头(Header)、实例数据(Instance Data)和对齐填充(Padding)。
 
 #### 对象头
 

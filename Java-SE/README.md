@@ -71,7 +71,7 @@ Java语言的单元测试框架
   * ASCII无法适应其他地方，如汉字数量有十几万
 * 扩展编码(加字节)
   * ISO8859(1_15) **->** 西欧语言
-  * **GB2132， GBK，GB18030 -> ASCII+中文**
+  * **GB2312， GBK，GB18030 -> ASCII+中文**
   * Big5 **->** ASCII + 繁体中文
   * Shift_JIS **->** ASCII+日文
   * **Unicode  -> 全世界所有文字字符集**
@@ -703,7 +703,7 @@ JSONObject obj = new JSONObject();
 obj.put("name", "Tom");
 obj.put("age", 20);
 obj.put("scores", Arrays.asList(60,70,80));
-obj.put("null", null);
+obj.put("null", JSONObject.NULL);
 System.out.println(obj);
 ```
 ##### JacksonTest.java
@@ -1974,7 +1974,7 @@ synchronized (variable){
 
 
 
-#### Lock
+#### ReentrantLock
 
 * Lock也可以实现同步的效果
   * 实现**更复杂的临界区**结构
@@ -2028,7 +2028,7 @@ placeSemaphore.release();
 
 
 
-#### Latch
+#### CountDownLatch
 
 * 等待锁，是一个同步辅助类
 * **用来同步执行任务的一个或者多个线程**
@@ -2045,7 +2045,7 @@ startSignal.await();
 
 
 
-#### Barrier
+#### CyclicBarrier
 
 * 集合点，也是一个同步辅助类
 * 允许多个线程在某一个点上进行同步
