@@ -6,10 +6,10 @@
   - Eureka(×)
   - Zookeeper(√)
   - **Nacos**(√)
-- 服务调用
+- 负载均衡
   - **Ribbon**(√)
   - LoadBalancer(√)
-- 服务调用2
+- 服务调用
   - Feign(×)
   - **OpenFeign**(√)
 - 服务降级
