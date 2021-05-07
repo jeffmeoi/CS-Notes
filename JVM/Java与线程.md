@@ -72,7 +72,7 @@ Sun JDK中，由于Windows和Linux系统提供的线程模型就是一对一的�
 
 ## Java线程调度
 
-主要调度方式有两种：协同式线程调度(Cooperative Threads-Scheduling) 和 抢占式线程调度(Preemptive Threads-Scheduling)。
+主要调度方式有两种：协同式线程调度(Cooperative Threads-Scheduling)和抢占式线程调度(Preemptive Threads-Scheduling)。
 
 #### 协同式调度
 
